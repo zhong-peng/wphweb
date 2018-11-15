@@ -1,0 +1,1 @@
+require(["config"],function(){require(["jquery","template"],function(r,o){r.ajax({method:"post",url:"",success:function(t){var e=o("pro-template",{products:t.products});r("#prolist").html(e)}})})});

@@ -1,0 +1,64 @@
+<script type="text/html" id="pro-template">
+	
+		<h3 class="PartTitle">
+			<img src="{{products.column.img1}}" alt="" />MUCH蛋糕
+		</h3>
+		<div class="column-left">
+			<a href="html/detail.html?">
+				<img src="{{products.column.img2}}"/>
+			</a>
+		</div>
+		<ul id="proList" class="proList">
+			{{each products.product item i}}
+				<li>
+			    	<a href="/html/detail.html?id={{item.id}}" target="_blank">
+			    		<img src="{{item.img3}}" alt="" />
+			    		<strong>{{item.strong}}</strong>
+			    		<span>{{item.activity}}</span>
+			    		<p>￥{{item.price}}</p>
+			    	</a>
+				</li>
+			{{/each}}	
+		</ul>
+	
+</script>
+
+
+
+
+
+
+<!--<h3 class="PartTitle">
+	<img src="/images/-Much- (1).png" alt="" />MUCH蛋糕
+</h3>
+<div class="column-left">
+	<a href="">
+		<img src="/images/- (1).jpg"/>
+	</a>
+</div>
+<ul id="proList" class="proList">
+	<li>
+    	<a href="javascript">
+    		<img src="images/100001239_M.jpg" alt="" />
+    		<strong>鲜奶蛋糕</strong>
+    		<span>活动立减五十元</span>
+    		<p>￥258</p>
+    	</a>
+	</li>
+	<li>
+    	<a href="javascript">
+    		<img src="images/100001239_M.jpg" alt="" />
+    		<strong>鲜奶蛋糕</strong>
+    		<span>活动立减五十元</span>
+    		<p>￥258</p>
+    	</a>
+	</li>
+	<li>
+    	<a href="javascript">
+    		<img src="images/100001239_M.jpg" alt="" />
+    		<strong>鲜奶蛋糕</strong>
+    		<span>活动立减五十元</span>
+    		<p>￥258</p>
+    	</a>
+	</li>
+</ul>-->

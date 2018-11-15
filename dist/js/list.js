@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","template","header","footer"],function(t,e,n){new Promise(function(e,n){t("header").load("/html/component/header.html",function(){e()})}).then(function(){n.nav()})})});

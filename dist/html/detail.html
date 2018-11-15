@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/detail.css">
+	</head>
+	<body>
+		
+		<header></header>
+		
+		
+		<div id="location">
+			<a href="">主页></a>
+			<a href="">元祖商城></a>
+			<a href="">元祖礼盒></a>
+			<a href="">糕点礼盒></a>
+			<a href="">坚果礼盒></a>
+		</div>
+		<div id="container2"></div>
+			
+			
+			<script type="text/html" id="detil-template">
+				<div id="neirong2">
+					<div id="product">
+						<div id="productphoto">
+							<div class="jqzoom" id="spec_n1">
+								<a href="" id="fdj_box" style="display: block;">
+									<img class="min_pic" src="{{product.img3}}" alt="" />
+									<span class="fdj"></span>
+							    </a>
+							    <div class="max_box" style="display: none;">
+									<img class="max_pic" src="{{product.img3}}" id="bigImg">
+								</div>
+							</div>
+							<div id="spec_n5">
+								<div id="spec_left">
+									<a href="">
+										<img src="/images/detail/left.gif"/>
+								    </a>
+								</div>
+								<div id="spec_list">
+									<img src="{{product.img3}}"/>
+									<img src="{{product.img3}}"/>
+									<img src="{{product.img3}}"/>
+								</div>
+								<div id="spec_right">
+									<a href="">
+										<img src="/images/detail/right.gif" alt="" />
+								    </a>
+								</div>
+							</div>
+						</div>
+						<div id="product_value">
+							<h1>{{product.strong}}</h1>
+							<div class="summary">巴旦木，黑芝麻。</div>
+							<dl>
+								<dt>优惠价：</dt>
+								<dd id="price">￥{{product.price}}</dd>
+							</dl>
+							<div class="buyBox">
+								<form action="" id="addtocartform" >
+									<span>数量：</span>
+									<input type="text" name="" id="num" value="1" />
+									<div class="pm">
+										<span class="plus" id="plus" style="cursor: pointer;">+</span>
+										<span class="minus" id="minus" style="cursor: pointer;">-</span>
+									</div>
+									<button id="btn_buy" type="button">立即购买</button>
+									<button id="btn_addcart" type="button">加入购物车</button>
+									
+								</form>
+							</div>
+							<div class="chengnuo">
+								服务承诺：<img src="/images/detail/00.gif" alt="" />
+								精选食材：<img src="/images/detail/00.gif" alt="" />
+								品质保证：<img src="/images/detail/00.gif" alt="" />
+								五星服务：<img src="/images/detail/00.gif" alt="" />
+								贴心宅配
+							</div>
+							<div class="sc_share">
+								商品编号：********<img src="" alt="" />收藏
+							</div>
+							
+						</div>
+					</div>
+					<div id="product_content">
+						<div class="pic"><img src="/images/detail/100000310_L (1).jpg" alt="" /></div>
+						<div class="pic"><img src="/images/detail/100000310_L (1).jpg" alt="" /></div>
+						<div class="pic"><img src="/images/detail/100000310_L (1).jpg" alt="" /></div>
+						<div class="pic"><img src="/images/detail/100000310_L (1).jpg" alt="" /></div>
+					</div>
+				</div>
+				<div id="Maylove">
+					
+				</div>
+		    </script>
+		    
+		    
+		    
+		
+		
+		
+		<!--footer-->
+		<footer></footer>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/detail.js"></script>	
+	</body>
+</html>

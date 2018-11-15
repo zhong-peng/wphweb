@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header></header>
+	<div id="products">
+		<ul id="proList"></ul>
+			<script type="text/html" id="pro-template">
+			{{each products item i}}
+				<li style="width: 200px;background: #ccc;float: left;margin-left: 20px;">
+					<div class="pic"><img src="{{ item.img }}" alt=""></div>
+					<p class="price">{{ item.price }}</p>
+					<p class="name">{{ item.name }}</p>
+				</li>
+			{{/each}}
+
+			</script>
+			<!-- <script type="text/html" id="pro-template">
+			
+			{{each products}}
+				<li style="width: 200px;background: #ccc;float: left;margin-left: 20px;">
+					<div class="pic"><img src="{{ $value.img }}" alt=""></div>
+					<p class="price">{{ $value.price }}</p>
+					<p class="name">{{ $value.name }}</p>
+				</li>
+			{{/each}}
+			
+			</script> -->
+			
+
+		
+	</div>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/list.js"></script>
+</body>
+</html>

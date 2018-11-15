@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/register.css">
+	</head>
+	<body>
+		<header></header>
+		
+		<div id="location">
+			<a href="">主页</a>>
+			<a href="">登录注册</a>
+		</div>
+		<div class="container">
+			<div class="login">
+				<div class="text_center">
+					<a href="javascript:;" id="login_a">登录</a>
+					<a href="javascript:;" id="register_a">注册</a>
+					<div class="switch_bottom" id="switch_bottom" style="width:70px;left:447px;"></div>
+				</div>
+				<div class="qr">
+					<div id="img_logo"><img src="/images/-20180628113448.jpg" alt="" /></div>
+					<div class="qr_login" id="qr_login">
+						<div class="form_login">
+							<form action="">
+								<div class="form_group">
+									<lable class="control_lable" for="username">邮箱或手机号：</lable>
+								    <input type="text" id="username" placeholder="邮箱/手机号"/>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="username2">密码：</lable>
+								    <input type="password" id="username2" placeholder=""/>
+								</div>
+								<label for="" class="error" id="error" style="opacity: 0;color:red;">用户名或密码错误。</label>
+							    <div class="autologin">
+							    	<span>
+							    		<input type="checkbox" checked="checked" />自动登录
+							    	</span>
+							    	<a href="">忘记登录？</a>
+							    </div>
+							    <div class="submit_login"><button id="btn_login">登录</button></div>
+							</form>
+						</div>
+					</div>
+					<div class="qr_register" id="qr_register" style="display: none;">
+						<div class="form_register">
+							<form action="">
+								<div class="form_group">
+									<lable class="control_lable" for="tel">手机号：<span>*</span></lable>
+								    <input type="text" id="tel_input" placeholder="请输入手机号"/>
+								    <p></p>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="ear">验证码：</lable>
+									<div class="ear_pic">
+										<img src="" alt="" /><button type="button">刷新</button>
+									</div>
+								    <input type="text" id="ear" placeholder=""/>
+								    <p></p>
+								</div>
+								<div class="form_group" style="position: relative;">
+									<lable class="control_lable" for="message">短信验证码：</lable>
+								    <input type="text" id="message" placeholder=""/>
+								    <button type="button" id="btn_message">发送验证码</button>
+								    <p></p>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="tel2">推荐人手机号：</lable>
+								    <input type="text" id="tel2" placeholder=""/>
+								    <p></p>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="birthday">出生日期：（*提示：会员生日有惊喜哦！一旦填写，不能修改。）</lable>
+								    <input type="text" id="birthday" placeholder=""/>
+								    <p></p>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="email">邮箱：</lable>
+								    <input type="text" id="email" placeholder=""/>
+								    <p></p>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="password">密码：<span>*</span></lable>
+								    <input type="text" id="password" placeholder=""/>
+								    <p></p>
+								</div>
+								<div class="form_group">
+									<lable class="control_lable" for="password2">确认密码：<span>*</span></lable>
+								    <input type="text" id="password2" placeholder=""/>
+								    <p></p>
+								</div>
+								<div class="clearfix">
+							    	<span>
+							    		<input type="checkbox" checked="checked" />自动登录
+							    	</span>
+							    	<a href="">注册协议</a>
+							    </div>
+							     <div class="submit_login"><button id="btn_register">同意协议并注册</button></div>
+							     <div class="comment">标有星号（*）的字段是必填字段</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<footer></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/register.js"></script>
+	</body>
+</html>

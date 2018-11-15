@@ -1,0 +1,177 @@
+@import "component/header.scss";
+@import "component/footer.scss";
+
+
+*{margin: 0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+
+
+
+#location{width:1200px;
+          height:45px;
+          line-height: 45px;
+          font-size: 16px;
+          margin:0 auto;}
+#location a{color:#000000;}
+#location a:hover{color:#FF4400;}
+
+
+.container{width:1200px;
+           margin:0 auto 50px auto;
+           border:1px solid #888888;}
+.container .login{width:1200px;
+                  }
+.container .login .text_center{height:45px;
+                               line-height: 45px;
+                               position: relative;
+                               text-align: center;
+                               border-bottom: 1px solid #888888;}
+.container .login .text_center a:first-child{display: inline-block;
+                                             height:45px;
+                                             line-height:45px ;}
+.container .login .text_center a:nth-child(2){display: inline-block;
+                                            height:45px;
+                                            line-height: 45px;
+                                            margin-left: 195px;}
+.container .login .text_center .switch_bottom{position:absolute;
+//                                            width:70px;
+//                                            left:435px;
+                                              bottom:-1px;
+                                              border-bottom:2px solid #848484;}                                           
+.container .login .qr{width:100%;
+                      min-height: 300px;
+                      position: relative;}
+.container .login .qr #img_logo{position: absolute;
+                                top:50px;
+                                left:120px;}
+.container .login .qr .qr_login{width:100%;
+                                color:#888;}
+.container .login .qr .qr_login .form_login form{width:370px;
+                                     height:249px;
+                                     margin-left:410px;
+                                     margin-top:50px;
+                                     }
+.container .login .qr .qr_login .form_login form .form_group{margin-bottom: 15px;}
+.container .login .qr .qr_login .form_login form .form_group .control_label{color:#999;
+                                                                            display: block;
+                                                                            line-height: 12px;}
+
+.container .login .qr .qr_login .form_login form .form_group input{height:38px;
+                                                       padding-left:5px;
+                                                       display: block;
+                                                       width:100%;
+                                                       box-sizing: border-box;
+                                                       outline: none;
+                                                       background: #FFFFFF;
+                                                       line-height: 38px;
+                                                       border: 1px solid #d7d7d7;
+                                                       color:#333;
+                                                       border-radius:2px;
+                                                       font-size: 16px;}
+.container .login .qr .qr_login .form_login form .autologin{width:100%;
+                                                margin-bottom: 10px;
+                                                margin-top:5px;
+                                                overflow: hidden;}
+.container .login .qr .qr_login .form_login form .autologin span{float:left;}
+
+.container .login .qr .qr_login .form_login form .autologin a{float:right;}
+
+.container .login .qr .qr_login .form_login form .submit_login{margin-bottom: 15px;}
+.container .login .qr .qr_login .form_login form .submit_login button{height:38px;
+                                                          line-height: 38px;
+                                                          width:100%;
+                                                          color:#FFFFFF;
+                                                          border-radius: 1px;
+                                                          background: #8975b4;
+                                                          font-size: 14px;
+                                                          padding:0 10px;
+                                                          text-align: center;
+                                                          outline: none;
+                                                          border:1px solid #FFFFFF;}
+
+.container .login .qr .qr_register{width:100%;
+                                   color:#888888;} 
+
+.container .login .qr .qr_register .form_register{width:100%;}
+.container .login .qr .qr_register .form_register form{width:370px;
+                                                     margin-left:410px;
+                                                     margin-top:50px;}  
+.container .login .qr .qr_register .form_register form .form_group{width:100%;
+                                                                   margin-bottom: 8px;}
+.container .login .qr .qr_register .form_register form .form-group .control_label{}
+.container .login .qr .qr_register .form_register form .form_group input{height:38px;
+                                                                       padding-left:5px;
+                                                                       display: block;
+                                                                       width:100%;
+                                                                       box-sizing: border-box;
+                                                                       outline: none;
+                                                                       background: #FFFFFF;
+                                                                       line-height: 38px;
+                                                                       border: 1px solid #d7d7d7;
+                                                                       color:#333;
+                                                                       border-radius:2px;
+                                                                       font-size: 16px;}
+.container .login .qr .qr_register .form_register form .form_group .ear_pic img{width:216px;
+                                                                                height:38px;
+                                                                                padding:0 15px;
+                                                                                border:1px solid red;}
+
+.container .login .qr .qr_register .form_register form .form_group .ear_pic button{width:93px;
+                                                                                   height:38px;
+                                                                                   padding:0 15px;
+                                                                                   background: #8975B4;
+                                                                                   font-size: 14px;
+                                                                                   line-height: 38px;
+                                                                                   border:none;
+                                                                                   outline: none;
+                                                                                   cursor: pointer;
+                                                                                   float: right;
+                                                                                   text-align: center;}
+.container .login .qr .qr_register .form_register form .form_group #message{width:255px;
+                                                                            padding:0 15px 0 5px;
+                                                                            box-sizing: content-box;
+                                                                            }
+
+.container .login .qr .qr_register .form_register form .form_group #btn_message{width:93px;
+                                                                                height:38px;
+                                                                                position: absolute;
+                                                                                top:22px;left:277px;
+                                                                                background: #8975B4;
+                                                                                border:none;
+                                                                                cursor: pointer;
+                                                                                outline: none;
+                                                                                padding:0 15px;
+                                                                                }
+
+.container .login .qr .qr_register .form_register form .clearfix{width:100%;overflow: hidden;}
+.container .login .qr .qr_register .form_register form .clearfix span{float:left;}
+.container .login .qr .qr_register .form_register form .clearfix a{float: right;}
+.container .login .qr .qr_register .form_register form .submit_login button{width:100%;
+                                                                            height:38px;
+                                                                            line-height: 38px;
+                                                                            border:none;
+                                                                            outline: none;
+                                                                            font-size: 16px;
+                                                                            color: #FFFFFF;
+                                                                            text-align: center;
+                                                                            background: #8975B4;}
+.container .login .qr .qr_register .form_register form .comment{width:100%;font-size:12px;text-align: right;margin-bottom:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

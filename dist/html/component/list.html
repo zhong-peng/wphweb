@@ -1,0 +1,14 @@
+
+<ul id="proList"></ul>
+<script type="text/html" id="pro-template">
+{{each products item i}}
+    <li>
+    	<a href="/html/detail.html?id={{item.id}}">
+    		<img src="{{item.img}}" alt="" />
+    		<strong>{{item.strong}}</strong>
+    		<span>item.activity</span>
+    		<p>￥{{item.price}}</p>
+    	</a>
+    </li>
+{{/each}}	
+</script>

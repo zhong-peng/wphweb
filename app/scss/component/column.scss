@@ -1,0 +1,52 @@
+.column .PartTitle{width:1200px;
+                height:40px;
+                line-height: 40px;
+                font-size: 18px;
+                padding-left:5px;
+                box-sizing: border-box;
+                vertical-align:middle;
+                border-bottom: 2px solid #e4004f;
+                background-color: #f9f9f9}         
+.column .PartTitle img{width:25px;
+                       height:25px;
+                       vertical-align:middle;}
+.column .column-left{width:316px;
+                     height:367px;
+                     margin-left:20px;
+                     float:left;}
+.column .column-left a{display: block;
+                      width:316px;
+                      height:367px;
+                      }
+.column .column-left a img{width:316px;
+                           height:367px;}
+.column .proList{width:864px;
+                height:367px;
+                float:left;}                 
+.column .proList li{width:248px;
+                    height:347px;
+                    float: left;
+                    padding:20px 20px 0 20px;
+                    box-sizing: content-box;
+                    text-align: center;}
+.column .proList li a{display: block;
+                      width:248px;
+                      height:347px;
+                      }
+.column .proList li a img{width:180px;
+                           height:180px;
+                           margin:50px 34px 10px 34px;
+                           }
+.column .proList li a strong{display: block;
+                            height:28px;
+                            line-height: 28px;
+                            font-size: 18px;}
+
+.column .proList li a span{display: block;
+                           height:19px;
+                           line-height: 19px;
+                           }
+.column .proList li a p{height:28px;
+                        line-height: 28px;
+                        }
+

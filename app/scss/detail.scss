@@ -1,0 +1,149 @@
+@import "component/header.scss";
+@import "component/footer.scss";
+
+
+*{margin: 0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+
+
+
+
+#location{width:1200px;
+            height:45px;
+            line-height: 45px;
+            margin:0 auto;}
+
+
+
+
+#container2{width:1199px;
+            margin:0 auto;
+            overflow: hidden;}
+#container2 #neirong2{width:991px;
+                      float: left;}
+#container2 #neirong2 #product{width:991px;
+                               height:563px;
+                               padding-top:17px;
+                               margin-bottom: 16px;
+                               }
+#container2 #neirong2 #product #productphoto{width:477px;
+                                             height:539px;
+                                             padding-bottom:24px;
+                                             margin-left:17px;
+                                             float: left;}
+#container2 #neirong2 #product #productphoto .jqzoom{width:450px;
+                                                     height:450px;
+                                                     position:relative;}
+                                                     
+#container2 #neirong2 #product #productphoto .jqzoom a{display:block;
+                                                        width:450px;
+                                                        height:450px;
+                                                        position:relative;}                                                     
+#container2 #neirong2 #product #productphoto .jqzoom a img{width:450px;
+                                                           height:450px;}
+#container2 #neirong2 #product #productphoto .jqzoom a .fdj{display:none;
+                                                            position: absolute;
+                                                            width:90px;
+                                                            height:90px;
+                                                            background: rgba(255,100,0,0.3);
+                                                            cursor: move;}
+#container2 #neirong2 #product #productphoto .jqzoom .max_box{display: none;
+                                                              position:absolute ;
+                                                              width:270px;
+                                                              height:270px;
+                                                              border:1px solid red;
+                                                              overflow: hidden;
+                                                              left:450px;
+                                                              top:0;}
+#container2 #neirong2 #product #productphoto .jqzoom .max_box .max_pic{width:1350px;
+                                                                       height:1350px;
+                                                                       position: absolute;}                                                              
+#container2 #neirong2 #product #productphoto #spec_n5{width:477px;
+                                                      height:69px;
+                                                      padding-top:20px;}
+
+#container2 #neirong2 #product #productphoto #spec_n5 #spec_left{margin: 0 10px;
+                                                                 float: left;
+                                                                 width:17px;
+                                                                 height:45px;
+                                                                 cursor:pointer;}
+#container2 #neirong2 #product #productphoto #spec_n5 #spec_left img{width:11px;height:62px;};                                                                 
+#container2 #neirong2 #product #productphoto #spec_n5 #spec_list{float: left;
+                                                                  width:400px;
+                                                                  position: relative;}                                                                                 
+#container2 #neirong2 #product #productphoto #spec_n5 #spec_list img{width:62px;height:62px;padding:0 5px;}
+#container2 #neirong2 #product #productphoto #spec_n5 #spec_right{float: left;
+                                                                  width:17px;
+                                                                  height:45px;
+                                                                  cursor:pointer;}
+#container2 #neirong2 #product #productphoto #spec_n5 #spec_right img{width:11px;height:62px;}
+
+
+
+
+#container2 #neirong2 #product #product_value{width:428px;
+                                              height:554px;
+                                              margin-right:40px;
+                                              float: right;
+                                              font-size: 16px;}
+#container2 #neirong2 #product #product_value h1{height:25px;
+                                                 font-size: 18px;
+                                                 margin: 5px 0;}
+
+#container2 #neirong2 #product #product_value .summary{height:22px;
+                                                     margin-bottom: 15px;;}
+
+#container2 #neirong2 #product #product_value dl{height:28px;
+                                                  }
+#container2 #neirong2 #product #product_value dl dt{float: left;width:70px;}
+#container2 #neirong2 #product #product_value dl dd{float: left;width:50px;color:#FF4400;}
+
+#container2 #neirong2 #product #product_value .buyBox{height:40px;}
+
+
+#container2 #neirong2 #product #product_value .buyBox form{height:40px;line-height: 40px;}
+#container2 #neirong2 #product #product_value .buyBox form span{float:left;}
+#container2 #neirong2 #product #product_value .buyBox form input{display: block;
+                                                                 width:45px;
+                                                                 height:36px;
+                                                                 float: left;
+                                                                 outline: none;}
+#container2 #neirong2 #product #product_value .buyBox form .pm{width:15px;
+                                                               height:36px;
+                                                               float:left;} 
+#container2 #neirong2 #product #product_value .buyBox form .pm span{border:1px solid #C0C0C0;
+                                                                    display: block;
+                                                                    width:15px;
+                                                                    height:18px;
+                                                                    line-height:18px;
+                                                                    border-left:none;}                                                                                                                             
+#container2 #neirong2 #product #product_value .buyBox form #btn_buy{display: block;
+                                                                    width:110px;
+                                                                    height:38px;
+                                                                    float:left;
+                                                                    border: 1px solid red;
+                                                                    color: red;
+                                                                    background: #F7E1B5;
+                                                                    margin:0 15px;
+                                                                    outline: none;}
+
+#container2 #neirong2 #product #product_value .buyBox form #btn_addcart{display: block;
+                                                                         width:150px;
+                                                                         height:38px;
+                                                                         color:#FFFFFF;
+                                                                         float: left;
+                                                                         border: none;
+                                                                         outline: none;
+                                                                         padding-left:10px;
+                                                                         background: url(/images/detail/icon_cart.gif) no-repeat 10px center red;}
+
+#container2 #neirong2 #product #product_value .chengnuo{height:29px;
+                                                        padding:0 5px;
+                                                        line-height: 29px;
+                                                        font-size: 14px;
+                                                        margin:20px 0px;
+                                                        background: #D3BD8B;
+                                                        } 
+#container2 #neirong2 #product #product_value .sc_share{height:20px; font-size: 14px;}

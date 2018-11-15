@@ -1,0 +1,575 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+	<header></header>
+	
+	<div class="section"><h1>主体部分</h1></div>
+
+	<footer></footer>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/index.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+
+	</head>
+
+	<body>
+		<div id="top">
+			<div class="center">
+				<div id="toplink">
+					<div class="ewm">
+						<span><img src="/_ui/hepimages/icon_phone.png"> 微商城</span>
+						<div style="display: none;" class="ewm_pic">
+							<div class="cmsimage">
+								<img title="微信图片_20180628113448.jpg" src="/medias/-20180628113448.jpg?context=bWFzdGVyfHJvb3R8MTgxMDZ8aW1hZ2UvanBlZ3xoM2QvaDczLzk1MjE2Njk3MDE2NjIuanBnfDE1ZWM4NGZkMzRmOWFlMDRjOTZmYzNiMGM0NDI3OWM0NmY4YWY0ZjZjYzc5NDFkYzM5NTc1MDM1NTcxYmJiMzQ" alt="微信图片_20180628113448.jpg" />
+							</div>
+						</div>
+					</div>
+
+					<a href="http://weibo.com/gansofood" class="weibo"><img src="/_ui/hepimages/icon_sina.png"> <span>官方微博</span></a>
+					<a href="http://www.ganso.com.tw/" class="tw"><img src="/_ui/hepimages/icon_tw.png"> <span>台湾元祖</span></a>
+				</div>
+
+				<div id="userbar">
+					<div class="wenhou">
+						<a href="/Ganso/zh/login">登录/注册</a>
+					</div>
+					<ul>
+						<li>
+							<a href="/Ganso/zh/my-account">会员中心</a>
+						</li>
+						<li>
+							<a href="/cart">购物车</a>
+						</li>
+						<li>
+							<a href="/Ganso/zh/store-finder ">元祖门店</a>
+						</li>
+						<li>
+							<a href="/help" title="帮助中心">帮助中心</a>
+						</li>
+					</ul>
+				</div>
+
+				<span class="clear"></span>
+
+			</div>
+
+		</div>
+
+		<!--<div id="topBanner"  >
+	<div class="conbox" >
+		<div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E8%A1%A5%E5%86%AC%E5%AD%A3/c/ec013">
+			<img title="补冬120090.jpg" alt="补冬120090.jpg" src="/medias/-120090.jpg?context=bWFzdGVyfGltYWdlc3w4NTI5M3xpbWFnZS9qcGVnfGltYWdlcy9oY2MvaDM0Lzk3MDA3NTIyNjExNTAuanBnfGM1OTZjOWE0ZGVhNjMwOTJhZGE0MjY1M2ZmMjhmMmQxMWI5ODc3YWIxMmQ0NzQwNDQ4Y2ZiOTI0NzYxYzViYTU"></a>
+		</div>
+</div>
+</div>-->
+
+		<!--<header id="header">
+	<div class="center">
+
+		<div id="logo">
+			<div class="yCmsComponent siteLogo">
+<div class="simple_disp-img" style="line-height: 69px" >
+	<a href="/Ganso/zh/">
+			<img title="15769官网LOGO.png" alt="15769官网LOGO.png" src="/medias/15769-LOGO.png?context=bWFzdGVyfGltYWdlc3w2MTc5fGltYWdlL3BuZ3xpbWFnZXMvaDRkL2g3OS85NDkzODQ1NjcxOTY2LnBuZ3wyM2QzNDk5ZTNlYzU3YmQxNDgyOTY5YzBhYTFhYzg4M2RjMDI4OGRiYTZhNDdhZDU2ZDM5ZWY1MjRjNGM3ODcy"></a>
+		</div>
+</div></div>
+		
+		<div id="search">
+	<form action="/Ganso/zh/search/" class="Searchform" method="get">
+		<input id="keys"  type="text" name="text" class="text" value="" maxlength="100" placeholder="" data-options='{"autocompleteUrl" : "/Ganso/zh/search/autocomplete/SearchBox","minCharactersBeforeRequest" : "3","waitTimeBeforeRequest" : "500","displayProductImages" : true}'/>
+		<button class="btn_send" type="submit">搜索</button>
+		<p>热门搜索：
+			<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/c/ec001"  title="MUCH蛋糕" >MUCH蛋糕</a><a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/c/ec004"  title="精致西点" >精致西点</a></p>
+	</form>
+</div>
+
+
+<div id="tel">
+			<div class="cmsimage">
+	<img title="4001103737.jpg" src="/medias/4001103737.jpg?context=bWFzdGVyfHJvb3R8MzE0Nzh8aW1hZ2UvanBlZ3xoYmYvaGMxLzkwNzUyNDQzMDIzNjYuanBnfGNjM2M5MmQxNjUyNGQ3N2YyYmMxZDMyYjUyMmEwNzNkZjVhODI2YWE4NTUwOTc4ZWRmNDczNDFhMDFhMzllNmQ" alt="4001103737.jpg"/>
+</div></div>
+
+
+
+		<span class="clear"></span>
+	
+
+	</div>
+
+</header>-->
+
+		<!--
+<nav id="menu">
+	<div class="center">
+		<ul class="menu">
+    <li ><a href="/#"  title="元祖商城" >元祖商城</a></li>
+    <li ><a href="/brand"  title="品牌故事" >品牌故事</a></li>
+    <li ><a href="/page_00000TBN"  title="企业试吃"  target="_blank">企业试吃</a></li>
+    <li ><a href="/information"  title="启蒙乐园" >启蒙乐园</a></li>
+    <li ></li>
+    <li ></li>
+    <li ><a href="/about"  title="联系我们" >联系我们</a></li>
+    </ul><span class="clear"></span>
+
+	<div id="submenu"   >
+			<div class="menutitle" style="overflow:hidden;cursor:pointer;background-color:#e9004f;text-align:center;">
+			<span class="empty-nav-item" style="color:#FFFFFF">全部商品分类</span><ul class="nav" style="text-align:left;">
+					<li><strong><span class="icon1" style="background-image: url('/medias/-.png?context=bWFzdGVyfGltYWdlc3wxMzcxfGltYWdlL3BuZ3xpbWFnZXMvaDg1L2gzYS85NjcwOTg0NzI4NjA2LnBuZ3w5NGRjZWRmMWQzN2VkOTA5MmY1ZTJiZDkzMDM5NWM4NmQzZmVhODg5ZTljYzI0MWQ2NGVjNGIxMTE5ZTZhMmEw');background-size: 22px 22px;background-position: 0px 0px"></span>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E8%A1%A5%E5%86%AC%E5%AD%A3/c/ec013">元祖补冬季</a></strong>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E8%A1%A5%E5%86%AC%E5%AD%A3/%E8%A1%A5%E5%86%AC%E7%A4%BC%E7%9B%92/c/ec013001">补冬礼盒</a>
+							</li>
+					<li><strong><span class="icon1" style="background-image: url('/medias/-.png?context=bWFzdGVyfGltYWdlc3wzNzYyfGltYWdlL3BuZ3xpbWFnZXMvaDFjL2g2Mi85NjUxOTk5OTY1MjE0LnBuZ3xjOGVkZDVhNDI3NzA4YzA3ZWZiZjRlNzdhYzllN2QxNTYzNDg4MWQ5MTE1NzFmZTIzZjgwYjk2N2Y0MWVmYzgw');background-size: 22px 22px;background-position: 0px 0px"></span>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E6%A1%82%E8%8A%B1%E5%AD%A3/c/ec007">元祖桂花季</a></strong>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E6%A1%82%E8%8A%B1%E5%AD%A3/%E5%AD%A3%E8%8A%82%E9%99%90%E5%AE%9A/c/ec007001">季节限定</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E6%A1%82%E8%8A%B1%E5%AD%A3/%E4%B8%93%E6%AC%BE%E8%9B%8B%E7%B3%95/c/ec007002">专款蛋糕</a>
+							</li>
+					<li><strong><span class="icon1" style="background-image: url('/medias/-Much-.png?context=bWFzdGVyfGltYWdlc3w2NTh8aW1hZ2UvcG5nfGltYWdlcy9oODUvaDA0Lzg4NTMyODUzMDYzOTgucG5nfDczYWFhOTdkNzU4Zjg3ZTdmYTk3ZjYyYTczYTc4OWY5YmM0ZDkyNTUxZDZkY2M4MGVkMjRiN2JkMjhmYWZiYjQ');background-size: 22px 22px;background-position: 0px 0px"></span>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/c/ec001">MUCH蛋糕</a></strong>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/%E9%B2%9C%E5%A5%B6%E8%9B%8B%E7%B3%95/c/ec001001">鲜奶蛋糕</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/%E5%B7%A7%E5%85%8B%E5%8A%9B%E8%9B%8B%E7%B3%95/c/ec001002">巧克力蛋糕</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/%E6%85%95%E6%80%9D%E8%9B%8B%E7%B3%95/c/ec001003">慕思蛋糕</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/%E5%A4%9A%E5%B1%82%E8%9B%8B%E7%B3%95/c/ec001004">多层蛋糕</a>
+							</li>
+					<li><strong><span class="icon1" style="background-image: url('/medias/-.png?context=bWFzdGVyfGltYWdlc3w2NTN8aW1hZ2UvcG5nfGltYWdlcy9oY2QvaDA1Lzg4MjM4NDk2ODA5MjYucG5nfDkwYjExOGIxMTFhYTVhMjM5NGZmNTFkM2RjN2NlOWNhODUxN2I0ZGYzZTM5Y2RmOGIxYmM3NjA5YjE2OTcyYTg');background-size: 22px 22px;background-position: 0px 0px"></span>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E7%A4%BC%E7%9B%92/c/ec003">元祖礼盒</a></strong>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E7%A4%BC%E7%9B%92/%E6%B0%B4%E6%9E%9C%E7%A4%BC%E7%9B%92/c/ec003002">水果礼盒</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E7%A4%BC%E7%9B%92/%E7%B3%95%E7%82%B9%E7%A4%BC%E7%9B%92/c/ec003001">糕点礼盒</a>
+							</li>
+					<li><strong><span class="icon1" style="background-image: url('/medias/-.png?context=bWFzdGVyfGltYWdlc3w2NjZ8aW1hZ2UvcG5nfGltYWdlcy9oNTYvaDlhLzg4NTMyODI5MTQzMzQucG5nfGE2OWQ3ODgzNjU0ZWMxY2JlMDQyOTdkYzU3ZWU1OTgzMjYzYjdlYzdmODczNDVlMjI3MWQzNDI0MjFlMTZjMmM');background-size: 22px 22px;background-position: 0px 0px"></span>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/c/ec004">精致西点</a></strong>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/%E5%B0%8F%E6%85%95%E6%80%9D%E7%B1%BB/c/ec004001">小慕思类</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/%E8%A5%BF%E7%82%B9%E5%8D%B7%E7%B1%BB/c/ec004003">西点卷类</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/%E9%BA%BB%E7%B3%AC%E7%B1%BB/c/ec004002">麻糬类</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/%E5%85%B6%E4%BB%96/c/ec004004">其他</a>
+							</li>
+					<li><strong><span class="icon1" style="background-image: url('/medias/-.png?context=bWFzdGVyfGltYWdlc3w1NDl8aW1hZ2UvcG5nfGltYWdlcy9oODgvaGQyLzg4Mzk1Nzg3NDY5MTAucG5nfDA5YjRiODgxOWFjMzVlMTY0M2Y5Yjc5NTM5MTI4MDUxZjQ5MzFjYjhhNzQ0ZTY2OThiM2YxZjRmZGFiZWJmYzQ');background-size: 22px 22px;background-position: 0px 0px"></span>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/c/ec005">元祖卡券</a></strong>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/%E7%A4%BC%E5%8D%A1/c/ec005004">礼卡</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/%E6%B0%B4%E6%9E%9C%E5%88%B8/c/ec005002">水果券</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/%E8%A5%BF%E7%82%B9%E5%88%B8/c/ec005003">西点券</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/%E8%9B%8B%E7%B3%95%E5%88%B8/c/ec005001">蛋糕券</a>
+							<a href="/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/%E7%94%B5%E5%AD%90%E5%88%B8/c/ec005005">电子券</a>
+							</li>
+					</ul>
+			</div>	
+		</div>
+		 submenu结束 
+
+</div>
+
+</nav>
+
+ 
+<div id="globalMessages">
+        </div>
+
+    <div id="banner" class="container">
+        <div class="conbox" style="left:0px;">
+            <div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/search/?text=%E8%9B%8B%E9%BB%84%E9%85%A5">
+			<img title="官网-3.jpg" alt="官网-3.jpg" src="/medias/-3.jpg?context=bWFzdGVyfGltYWdlc3wzNDE0ODF8aW1hZ2UvanBlZ3xpbWFnZXMvaGI3L2hmOC85NjkyODg4ODkxNDIyLmpwZ3w4NDE3YTBkODE2ZTc0MjkxODU4ODAwNjlkMjIwMGMxNTI0MDRkYTRiZjNjODU1NjZiOTdlNWIyNDMyMTY4YmM0"></a>
+		</div>
+<div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/search/?text=%E8%9B%8B%E9%BB%84%E9%85%A5">
+			<img title="微信图片_20181023160053.jpg" alt="微信图片_20181023160053.jpg" src="/medias/-20181023160053.jpg?context=bWFzdGVyfGltYWdlc3wyNDc0NTd8aW1hZ2UvanBlZ3xpbWFnZXMvaDJiL2hiYi85NjkxMDA1NDg1MDg2LmpwZ3xjYjQyNTk1NGI5OTlmYzVhNDE2Njk5MTNkMjg2MzcwZTQyNDRkY2RlNTgyNGYwNzMwZjE5MjI4ODNlMTZiYWI3"></a>
+		</div>
+<div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E5%8D%A1%E5%88%B8/%E7%A4%BC%E5%8D%A1/c/ec005004">
+			<img title="官网.jpg" alt="官网.jpg" src="/medias/-.jpg?context=bWFzdGVyfGltYWdlc3w0OTM1NTN8aW1hZ2UvanBlZ3xpbWFnZXMvaDA0L2gwMS85Njg5MjcwNjgxNjMwLmpwZ3w1ZjUwNzFiMThjZDExYTY1ZGY3ODkwMjc3ZWU1YThiYjRmMjBhYzI3ZmUxNGNmYTA3NmY3NWE3NmM2NDRhNThh"></a>
+		</div>
+<div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/p/100001221">
+			<img title="桂花慕思官网.jpg" alt="桂花慕思官网.jpg" src="/medias/-.jpg?context=bWFzdGVyfGltYWdlc3wyMzYxNTB8aW1hZ2UvanBlZ3xpbWFnZXMvaGQyL2hiNC85NjUxOTk1Mjc5MzkwLmpwZ3xiZmM3NDJiMzU0Njc0NjJkOWU3ZjEyZTBmODk3NThhMTNhNDQ3NjBmZDQzNzJkNWY5YjJiOGI3ZWZhZmI4ODk5"></a>
+		</div>
+<div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E6%A1%82%E8%8A%B1%E5%AD%A3/%E4%B8%93%E6%AC%BE%E8%9B%8B%E7%B3%95/c/ec007002">
+			<img title="桂花季两款蛋糕官网.jpg" alt="桂花季两款蛋糕官网.jpg" src="/medias/-.jpg?context=bWFzdGVyfGltYWdlc3wxNTA1Mjd8aW1hZ2UvanBlZ3xpbWFnZXMvaDFkL2g4Yi85NjUxOTk1NzA1Mzc0LmpwZ3wyZTIzNDczOThlNjM1NTMyOWE1YjY5OTZjZGE1YTRjYjVhODZlMmE2MWUzMDg4ZDg3MjczMDZlNzZiYWZkNjQz"></a>
+		</div>
+</div>
+    </div>
+    <div id="Floatingbar" >
+        <div id="GongGao">
+        <h4 class="huiTitle"><em style="background-image: url('/medias/icon-ld.png?context=bWFzdGVyfGltYWdlc3wxNzY1fGltYWdlL3BuZ3xpbWFnZXMvaGRlL2g1My85NTA5NTg3OTQzNDU0LnBuZ3wzYjY1OGViODZkM2E4ZDlmZWZiMGRhNmJjZWQwMDBiNjkyMzI1ODVkMjA4ZTk0ZDk0NmE5NjVmM2M2ZWM2YzUx')">最新消息</em></h4>
+        <ul class="NewsList">
+            <li><a href="page_00002AK9"  title="【公告】18中秋延期指定提领点" >【公告】18中秋延期指定提领点</a></li>
+            <li><a href="page_00002AK8"  title="【公告】18年中秋提货券延期" >【公告】18年中秋提货券延期</a></li>
+            <li><a href="page_00001XG1"  title="【公告】会员权益调整" >【公告】会员权益调整</a></li>
+            <li><a href="page_00001H8O"  title="【公告】积分商城停止运营" >【公告】积分商城停止运营</a></li>
+            <li><a href="page_000017ZC"  title="【公告】积分清零公告" >【公告】积分清零公告</a></li>
+            <li></li>
+            </ul>
+
+    </div>
+     //GongGao结束 
+
+    <div id="ADS">
+        <div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/p/100001222">
+			<img title="-.jpg" alt="-.jpg" src="/medias/-.jpg?context=bWFzdGVyfGltYWdlc3wzMDIyOXxpbWFnZS9qcGVnfGltYWdlcy9oNTIvaGE5Lzk2NTE5OTY2MjI4NzguanBnfGI3Y2M4YWE1YmI5NGM2NWQyMGNhNjUwNTYxMzVhMDhhNWI2NDRmMmMxNDdkOTkxMTBlYWJmNWVhZTNjNTA2OWM"></a>
+		</div>
+</div>
+     //ADS结束 
+
+
+</div>
+    <div id="hot">
+        <div id="Recommend">
+    <ul class="Tab2" id="RecommendTab">
+    <li class = "change"><a href="javascript:void(0);">元祖新品</a></li>
+            <li ><a href="javascript:void(0);">热销推荐</a></li>
+            <li ><a href="javascript:void(0);">节庆民俗</a></li>
+            <li ><a href="javascript:void(0);">元祖卡券</a></li>
+            </ul><span class="clear"></span>
+    <div class="Tab_nr">
+            <ul class="ProductList3">
+	<li><a href="/p/100001009" class="photo">
+				<img title="5入桂花酥" alt="5入桂花酥" src="http://pic.ganso.com.cn/images1/100001009/100001009_M.jpg"></a>
+				<strong style="text-align:center">桂花酥（5入）</strong>
+				<em> ¥50.00</em></li>
+		<li><a href="/p/100001221" class="photo">
+				<img title="8号璀璨桂花慕思蛋糕" alt="8号璀璨桂花慕思蛋糕" src="http://pic.ganso.com.cn/images1/100001221/100001221_M.jpg"></a>
+				<strong style="text-align:center">8号璀璨桂花慕思蛋糕</strong>
+				<em> ¥288.00</em></li>
+		<li><a href="/p/100001220" class="photo">
+				<img title="小方慕思（桂花味）" alt="小方慕思（桂花味）" src="http://pic.ganso.com.cn/images1/100001220/100001220_M.jpg"></a>
+				<strong style="text-align:center">小方慕思（桂花味）</strong>
+				<em> ¥20.00</em></li>
+		<li><a href="/p/100001222" class="photo">
+				<img title="8号贵花精灵鲜奶蛋糕" alt="8号贵花精灵鲜奶蛋糕" src="http://pic.ganso.com.cn/images1/100001222/100001222_M.jpg"></a>
+				<strong style="text-align:center">8号贵花精灵鲜奶蛋糕</strong>
+				<em> ¥218.00</em></li>
+		</ul>
+<span class="clear"></span>
+            </div>
+        <div class="Tab_nr">
+            <ul class="ProductList3">
+	<li><a href="/p/100000282" class="photo">
+				<img title="黑芝麻糕打开记忆礼盒" alt="黑芝麻糕打开记忆礼盒" src="http://pic.ganso.com.cn/images1/100000282/100000282_M.jpg"></a>
+				<strong style="text-align:center">黑芝麻糕打开记忆礼盒</strong>
+				<em> ¥68.00</em></li>
+		<li><a href="/p/100000281" class="photo">
+				<img title="核枣糕打开记忆礼盒" alt="核枣糕打开记忆礼盒" src="http://pic.ganso.com.cn/images1/100000281/100000281_M.jpg"></a>
+				<strong style="text-align:center">核枣糕打开记忆礼盒</strong>
+				<em> ¥88.00</em></li>
+		<li><a href="/p/100000594" class="photo">
+				<img title="贵圆糕打开记忆礼盒" alt="贵圆糕打开记忆礼盒" src="http://pic.ganso.com.cn/images1/100000594/100000594_M.jpg"></a>
+				<strong style="text-align:center">贵圆糕打开记忆礼盒</strong>
+				<em> ¥98.00</em></li>
+		<li><a href="/p/100000592" class="photo">
+				<img title="黑芝麻糕礼盒" alt="黑芝麻糕礼盒" src="http://pic.ganso.com.cn/images1/100000592/100000592_M.jpg"></a>
+				<strong style="text-align:center">黑芝麻糕礼盒</strong>
+				<em> ¥88.00</em></li>
+		</ul>
+<span class="clear"></span>
+            </div>
+        <div class="Tab_nr">
+            <ul class="ProductList3">
+	<li><a href="/p/100000732" class="photo">
+				<img title="元祖旺来凤梨酥" alt="元祖旺来凤梨酥" src="http://pic.ganso.com.cn/images1/100000732/100000732_M.jpg"></a>
+				<strong style="text-align:center">元祖旺来凤梨酥</strong>
+				<em> ¥128.00</em></li>
+		<li><a href="/p/100000310" class="photo">
+				<img title="坚果礼盒" alt="坚果礼盒" src="http://pic.ganso.com.cn/images1/100000310/100000310_M.jpg"></a>
+				<strong style="text-align:center">坚果礼盒</strong>
+				<em> ¥98.00</em></li>
+		<li><a href="/p/100001182" class="photo">
+				<img title="幸福结果子礼盒" alt="幸福结果子礼盒" src="http://pic.ganso.com.cn/images1/100001174/100001174_M.jpg"></a>
+				<strong style="text-align:center">幸福结果子礼盒</strong>
+				<em> ¥60.00</em></li>
+		<li><a href="/p/100000324" class="photo">
+				<img title="绿豆糕礼盒" alt="绿豆糕礼盒" src="http://pic.ganso.com.cn/images1/100000324/100000324_M.jpg"></a>
+				<strong style="text-align:center">绿豆糕礼盒</strong>
+				<em> ¥98.00</em></li>
+		</ul>
+<span class="clear"></span>
+            </div>
+        <div class="Tab_nr">
+            <ul class="ProductList3">
+	<li><a href="/p/600000355" class="photo">
+				<img title="元祖100型心意卡" alt="元祖100型心意卡" src="http://pic.ganso.com.cn/images1/600000355/600000355_M.jpg"></a>
+				<strong style="text-align:center">100型心意卡</strong>
+				<em> ¥100.00</em></li>
+		<li><a href="/p/600000357" class="photo">
+				<img title="元祖200型心意卡" alt="元祖200型心意卡" src="http://pic.ganso.com.cn/images1/600000357/600000357_M.jpg"></a>
+				<strong style="text-align:center">200型心意卡</strong>
+				<em> ¥200.00</em></li>
+		<li><a href="/p/600000404" class="photo">
+				<img title="元祖300型心意卡" alt="元祖300型心意卡" src="http://pic.ganso.com.cn/images1/600000404/600000404_M.jpg"></a>
+				<strong style="text-align:center">元祖300型心意卡</strong>
+				<em> ¥300.00</em></li>
+		<li><a href="/p/600000358" class="photo">
+				<img title="元祖500型心意卡" alt="元祖500型心意卡" src="http://pic.ganso.com.cn/images1/600000358/600000358_M.jpg"></a>
+				<strong style="text-align:center">500型心意卡</strong>
+				<em> ¥500.00</em></li>
+		</ul>
+<span class="clear"></span>
+            </div>
+        </div>
+<div id="ADplay">
+            <div class="conbox">
+                <div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/p/100000309">
+			<img title="-title-02.jpg" alt="-title-02.jpg" src="/medias/-title-02.jpg?context=bWFzdGVyfGltYWdlc3w4Mjg0OXxpbWFnZS9qcGVnfGltYWdlcy9oOGIvaGM2Lzk3MDA3NTM0NzM1NjYuanBnfGYyZDk3MjE1OGUzMzBjNmVhNTdlYTI5MGQzNTI4Njg3MzdmZjg4NWM4MGZkYWMzOGU4ZDQ4ODM2ZWE3ZTk0MmY"></a>
+		</div>
+</div>
+        </div>
+        <span class="clear"></span>
+    </div>
+
+    <div class="column">
+    <h3 class="PartTitle">
+        <img src="/medias/-Much-.png?context=bWFzdGVyfHJvb3R8NjU4fGltYWdlL3BuZ3xoYTUvaDM4Lzg4NjY4ODk3OTM1NjYucG5nfGFjZWViNjlkZmQ1MmZiZDlkZjQ0N2VlZTNmYmNiYmRhZDJlMjFhMWI0Yjc1Njg0OTQzNGM3YzcwNGViMThiNzg" class="icon">
+        MUCH蛋糕
+        
+        
+        //<span class="btn_more"><a href="/#"  title="更多"  target="_blank">更多</a></span>
+    </h3>
+    <ul class="fenlei">
+        </ul>
+    <span class="clear"></span>
+
+    <div class="yCmsComponent ad316x367">
+<div class="disp-img">
+	<a href="http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/c/ec001">
+				<span class="thumb">
+					<img title="" alt="微信图片_20180830103911.jpg" src="/medias/-20180830103911.jpg?context=bWFzdGVyfGltYWdlc3w1NTM5NHxpbWFnZS9qcGVnfGltYWdlcy9oMjMvaGQ5Lzk2MTU3MjYzNzkwMzguanBnfGQ4ZTkyNDY4MmZiNzllYjViNjE3MDkyNjZhNTllNWNlNmFkNmE2ZjE3MzRiOTVkMjY4ZmY4NDdhYjc2ZGM0Nzc">
+					 <span class="guang"></span>
+				</span>
+				</a>
+		</div></div><ul class="ProductList">
+        
+
+
+
+
+<li><a href="/Ganso/zh/p/100001272"  class="photo">
+    <img title="8号樱香漫漫鲜奶蛋糕" alt="8号樱香漫漫鲜奶蛋糕" src="http://pic.ganso.com.cn/images1/100001272/100001272_M.jpg">
+    <strong>樱香漫漫鲜奶蛋糕 </strong>
+    <span> 洁白雅致，细细点缀</span>
+    <em>¥218.00 </em></a>
+</li>
+
+
+
+
+
+<li><a href="/Ganso/zh/p/100001236"  class="photo">
+    <img title="8号朵朵咖啡鲜奶蛋糕" alt="8号朵朵咖啡鲜奶蛋糕" src="http://pic.ganso.com.cn/images1/100001236/100001236_M.jpg">
+    <strong>朵朵咖啡鲜奶蛋糕 </strong>
+    <span> 朵朵咖啡，悦享品质</span>
+    <em>¥218.00 </em></a>
+</li>
+
+
+
+
+
+<li><a href="/Ganso/zh/p/100001239"  class="photo">
+    <img title="8号元祖萌虎鲜奶蛋糕" alt="8号元祖萌虎鲜奶蛋糕" src="http://pic.ganso.com.cn/images1/100001239/100001239_M.jpg">
+    <strong>元祖萌虎鲜奶蛋糕 </strong>
+    <span> 重返童年时光</span>
+    <em>¥218.00 </em></a>
+</li>
+</ul>
+    <span class="clear"></span>
+</div>
+//.column结束 
+<div class="column">
+    <h3 class="PartTitle">
+        <img src="/medias/-.png?context=bWFzdGVyfGltYWdlc3w2NTN8aW1hZ2UvcG5nfGltYWdlcy9oY2QvaDA1Lzg4MjM4NDk2ODA5MjYucG5nfDkwYjExOGIxMTFhYTVhMjM5NGZmNTFkM2RjN2NlOWNhODUxN2I0ZGYzZTM5Y2RmOGIxYmM3NjA5YjE2OTcyYTg" class="icon">
+        元祖礼盒 
+        	//<span class="btn_more"><a href="/#"  title="更多"  target="_blank">更多</a></span>
+    </h3>
+    <ul class="fenlei">
+        </ul>
+    <span class="clear"></span>
+
+    <div class="yCmsComponent ad316x367">
+<div class="disp-img">
+	<a href="http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E5%85%83%E7%A5%96%E7%A4%BC%E7%9B%92/c/ec003">
+				<span class="thumb">
+					<img title="" alt="分类图-礼盒.jpg" src="/medias/-.jpg?context=bWFzdGVyfGltYWdlc3w5NjYwOXxpbWFnZS9qcGVnfGltYWdlcy9oMjgvaGE4LzkxNzU5NzU1MjY0MzAuanBnfDFlZWViMzllN2E0YTA0ODQ3NGJjNWI1YWQzNmY0OTFkYjQ1MDA4NTlkYzkzOGM3NTkwYjNjYjU4OTYyOWYyNTQ">
+					 <span class="guang"></span>
+				</span>
+				</a>
+		</div></div><ul class="ProductList2">
+        
+
+
+
+
+
+<li>
+    <a href="/Ganso/zh/p/100000385"  class="photo"> <img title="核枣糕礼盒" alt="核枣糕礼盒" src="http://pic.ganso.com.cn/images1/100000385/100000385_M.jpg"></a>
+    <div class="txt">
+        <strong> 核枣糕礼盒</strong>
+        <span> 入口的幸福，相伴的健康。 </span>
+        <em>¥118.00</em>
+    </div>
+</li>
+
+
+
+
+
+
+<li>
+    <a href="/Ganso/zh/p/100000282"  class="photo"> <img title="黑芝麻糕打开记忆礼盒" alt="黑芝麻糕打开记忆礼盒" src="http://pic.ganso.com.cn/images1/100000282/100000282_M.jpg"></a>
+    <div class="txt">
+        <strong> 黑芝麻糕打开记忆礼盒</strong>
+        <span> 浓浓芝麻香，怀念的味道。 </span>
+        <em>¥68.00</em>
+    </div>
+</li>
+
+
+
+
+
+
+<li>
+    <a href="/Ganso/zh/p/100000593"  class="photo"> <img title="贵圆糕礼盒" alt="贵圆糕礼盒" src="http://pic.ganso.com.cn/images1/100000593/100000593_M.jpg"></a>
+    <div class="txt">
+        <strong> 贵圆糕礼盒</strong>
+        <span> 清香桂圆，流连忘返 </span>
+        <em>¥128.00</em>
+    </div>
+</li>
+</ul>
+    <span class="clear"></span>
+</div>
+//.column结束
+<div class="column">
+    <h3 class="PartTitle">
+        <img src="/medias/-.png?context=bWFzdGVyfHJvb3R8NjY2fGltYWdlL3BuZ3xoODcvaGY2Lzg4NjY4OTA5NDA0NDYucG5nfDY1OTFmMDYwYjY1NzYyMjY3OGQ1ZDc4ZDg3MWUwMWM5YzBmYjk4YzY0ZTRkZmYzNjM2ZmI3MmQ4MmNiNWVmOGU" class="icon">
+        精致西点
+        //<span class="btn_more"><a href="/http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/MUCH%E8%9B%8B%E7%B3%95/c/ec001"  title="</span>
+    </h3>
+    <ul class="fenlei">
+        </ul>
+    <span class="clear"></span>
+
+    <div class="yCmsComponent ad316x367">
+<div class="disp-img">
+	<a href="http://mall.ganso.com.cn/%E5%85%83%E7%A5%96%E5%95%86%E5%9F%8E/%E7%B2%BE%E8%87%B4%E8%A5%BF%E7%82%B9/c/ec004">
+				<span class="thumb">
+					<img title="" alt="317x368西点.jpg" src="/medias/317x368-.jpg?context=bWFzdGVyfGltYWdlc3wxMjYyMDd8aW1hZ2UvanBlZ3xpbWFnZXMvaDdiL2gwMC84ODg3NjMwMTY4MDk0LmpwZ3xlYmQ5MTk5NmNhNWJhNDhlZjlmMWFiYjc3MzI4NTc5MjM0MDMwMWEyNjZkMjRlNjNiMWQ2NzlmMzM2NzNkMTQ0">
+					 <span class="guang"></span>
+				</span>
+				</a>
+		</div></div><ul class="ProductList">
+        
+
+
+
+
+<li><a href="/Ganso/zh/p/100000237"  class="photo">
+    <img title="麻糬枣泥味" alt="麻糬枣泥味" src="http://pic.ganso.com.cn/images1/100000237/100000237_M.jpg">
+    <strong>麻糬枣泥味 </strong>
+    <span> Q糯的外表下，很有内涵。</span>
+    <em>¥10.00 </em></a>
+</li>
+
+
+
+
+
+<li><a href="/Ganso/zh/p/100000234"  class="photo">
+    <img title="蜂蜜蛋糕原味" alt="蜂蜜蛋糕原味" src="http://pic.ganso.com.cn/images1/100000234/100000234_M.jpg">
+    <strong>蜂蜜蛋糕 </strong>
+    <span> </span>
+    <em>¥11.00 </em></a>
+</li>
+
+
+
+
+
+<li><a href="/Ganso/zh/p/100000269"  class="photo">
+    <img title="小方慕思草莓味" alt="小方慕思草莓味" src="http://pic.ganso.com.cn/images1/100000269/100000269_M.jpg">
+    <strong>小方慕思草莓味 </strong>
+    <span> 三点一刻，最期待的享受。</span>
+    <em>¥20.00 </em></a>
+</li>
+</ul>
+    <span class="clear"></span>
+</div>
+
+//.column结束
+
+ <div id="Activity">
+        <h3 class="PartTitle">精选活动 </h3>
+<span class="clear"></span>
+<ul class="imgList">
+    <li><div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/p/100000005">
+			<img title="精选活动 (2).jpg" alt="精选活动 (2).jpg" src="/medias/-2-.jpg?context=bWFzdGVyfGltYWdlc3w3MTQ3NXxpbWFnZS9qcGVnfGltYWdlcy9oODUvaDg4LzkzNzk2MTk4NjQ2MDYuanBnfGE3NWFkYjQ0NDIxNTg5OTRjNzI3NzkzYWMyNzE5ZWRmMDdlYTljNmIyOWYwZGMyNjQ2ZDA2ZGRhOTc5YzE2MjE"></a>
+		</div>
+</li>
+    <li><div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/p/100000324">
+			<img title="375200.jpg" alt="375200.jpg" src="/medias/375200.jpg?context=bWFzdGVyfGltYWdlc3w1Mzg3OXxpbWFnZS9qcGVnfGltYWdlcy9oN2YvaDcxLzk0MjIwODY5MzA0NjIuanBnfDUzMjI1MjI5YTA1OWUxMDdiNDcyZTBjZjQzMjgzOWEzNDMwNDlkNjllYWRjN2VhZWIwOGY0ZDI1ZDVkZTAyODQ"></a>
+		</div>
+</li>
+    <li><div class="simple_disp-img" style="line-height: 69px" >
+	<a href="http://mall.ganso.com.cn/Ganso/zh/p/100000122">
+			<img title="精选活动 (1).jpg" alt="精选活动 (1).jpg" src="/medias/-1-.jpg?context=bWFzdGVyfGltYWdlc3wzNTQ4NnxpbWFnZS9qcGVnfGltYWdlcy9oNjYvaGI2LzkzNzM2MzAyNjc0MjIuanBnfGFjNzU5ZTAxY2NiMzRhZmY2YjM4NmFiNDQ5YTM5ODk5ZGY3ZGViOWVkMjhhMTZhOWMxZWEwYjExYzVjM2NiM2E"></a>
+		</div>
+</li>
+    </ul>
+</div>
+
+<div class="yCmsContentSlot footer">
+<footer id="footer">
+    <div class="center">
+
+        <img class="center" src="/medias/-.jpg?context=bWFzdGVyfHJvb3R8NjQ1NzJ8aW1hZ2UvanBlZ3xoOTUvaGEwLzg4MjM4NTQwMzkwNzAuanBnfDJkMzg4YTkzMmQ4NDdjNWZlZTQ5MTg1NzhjNTk1NTE2NGNmM2U5NTFjMzRhZjFlODA5MWJiODdhMDI2YTkyNTY" />
+        <span class="clear"></span>
+        <ul>
+            <li><a href="/help"  title="帮助中心" >帮助中心</a> | </li>
+                    <li><a href="/about"  title="关于我们" >关于我们</a> | </li>
+                    <li><a href="/service"  title="元祖服务" >元祖服务</a> | </li>
+                    <li><a href="/recruitment"  title="人才招聘" >人才招聘</a> | </li>
+                    <li><a href="/about"  title="联系我们" >联系我们</a> | </li>
+                    <li><a href="/page_0000109L"  title="元祖会员" >元祖会员</a></li>
+                    </ul>
+        <p> 
+		版权所有 @ 2015 上海元祖梦果子股份有限公司 沪ICP备17013537号 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011802001203" style="color: #535353;"><img src="/_ui/hepimages/organ.png"/> 沪公网安备 31011802001203号</a>
+		</p>
+        <p><a href="http://218.242.124.22:8081/businessCheck/verifKey.do?showType=extShow&serial=9031000020160407135056000000536519-SAIC_SHOW_310000-20170329153205295181&signData=MEUCIBURLFfySsApOJUn1y1U+DADOToKL+gqp4jCxWqqjSfNAiEA0qyI7JJXjAMtC29/Mqky3WNZOLV0HMN40gmwZ0WA8/A="><img src="/_ui/hepimages/5.jpg" style="width: 260px;"></a></p>
+
+    </div>
+</footer>
+
+<div id="FloatBar">
+	<ul>
+		<li class="" id="btn_backtop"><a href="#"><span></span><em style="right: -96px;">返回顶部</em></a></li>
+		<li class="" id="btn_hd"><a href="#"><span></span><em style="right: -96px;">最新活动</em></a></li>
+		<li class="" id="btn_cart">
+			<a href="/Ganso/zh/cart"><span></span><strong>购物车</strong> <ins class="count"  data-refreshMiniCartUrl="/Ganso/zh/cart/miniCart/SUBTOTAL/?"  data-rolloverPopupUrl="/Ganso/zh/cart/rollover/MiniCart" >0</ins></a>
+
+</li>
+		<li class="" id="btn_sc"><a href="/my-account/favors"><span></span><em style="right: -96px;">我的收藏</em></a></li>
+	</ul>
+</div>
+</div><form name="accessiblityForm">
+		<input type="hidden" id="accesibility_refreshScreenReaderBufferField" name="accesibility_refreshScreenReaderBufferField" value=""/>
+	</form>
+	<div id="ariaStatusMsg" class="skip" role="status" aria-relevant="text" aria-live="polite"></div>-->
+
+	</body>
+
+</html>
